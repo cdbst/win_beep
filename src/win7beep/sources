@@ -1,0 +1,12 @@
+TARGETNAME=win7beep
+TARGETTYPE=DRIVER
+
+INCLUDES = ..\include;
+
+TARGETLIBS = $(DDK_LIB_PATH)\ntstrsafe.lib \
+			 $(DDK_LIB_PATH)\Ntoskrnl.lib
+
+MSC_WARNING_LEVEL = /W4 /WX
+
+SOURCES = win7beep.c \
+

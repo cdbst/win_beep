@@ -1,0 +1,5 @@
+DIRS= \
+     bin \
+     build \
+     doc \
+     src
